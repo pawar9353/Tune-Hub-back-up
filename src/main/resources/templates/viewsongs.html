@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Music Library</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" type="text/css" href="/css/viewsong.css">
+</head>
+<body>
+	<div class="music-view">
+	
+		<div class="music2">
+		
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Artist</th>
+					<th>Genre</th>
+					<th>Play</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="song : ${songs}">
+					<td th:text="${song.name}"></td>
+					<td th:text="${song.artist}"></td>
+					<td th:text="${song.genre}"></td>
+					<td>
+						<!-- Add audio controls for the song link --> <audio controls>
+							<source th:src="${song.link}" type="audio/mpeg">
+						</audio>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="sanam">
+		<img th:src="@{/images/Screenshot_28.png}" alt="Description">	
+		</div>
+		<div class="sanam1">
+		<img th:src="@{/images/Screenshot_22.png}" alt="Description">	
+		</div>
+		<div class="sanam2">
+		<img th:src="@{/images/Screenshot_27.png}" alt="Description">	
+		</div>
+		<div class="sanam3">
+		<img th:src="@{/images/Screenshot_26.png}" alt="Description">	
+		</div>
+		<div class="sanam4">
+		<img th:src="@{/images/Screenshot_25.png}" alt="Description">	
+		</div>
+		<div class="sanam5">
+		<img th:src="@{/images/Screenshot_24.png}" alt="Description">	
+		</div>
+		<div class="sanam6">
+		<img th:src="@{/images/Screenshot_23.png}" alt="Description">	
+		</div>
+		<div class="sanam7">
+		<img th:src="@{/images/Screenshot_29.png}" alt="Description">	
+		</div>
+		<div class="sanam8">
+		<img th:src="@{/images/Screenshot_30.png}" alt="Description">	
+		</div>
+		<div class="sanam9">
+		<img th:src="@{/images/Screenshot_31.png}" alt="Description">	
+		</div>
+		<div class="sanam10">
+		<img th:src="@{/images/Screenshot_32.png}" alt="Description">	
+		</div>
+		<div class="sanam11">
+		<img th:src="@{/images/Screenshot_33.png}" alt="Description">	
+		</div>
+		<div class="sanam12">
+		<img th:src="@{/images/Screenshot_34.png}" alt="Description">	
+		</div>
+		<div class="sanam13">
+		<img th:src="@{/images/Screenshot_35.png}" alt="Description">	
+		</div>
+		<div class="sanam14">
+		<img th:src="@{/images/Screenshot_36.png}" alt="Description">	
+		</div>
+		
+		
+		
+	</div>
+	
+	</div>
+
+
+
+
+
+	<div class="first-one">
+	<p class="home"><i class="fa-solid fa-house"></i>Home</p>
+	<p class="home1"><i class="fa-sharp fa-solid fa-magnifying-glass"></i>Search</i></p>
+	
+	</div>
+	<div class="header2">
+	
+		<div class="middle-container">
+		<h2 class="create">Create your first playlist</h2>
+		<p class="you">It's easy,we'll help you</p>		
+	<div class="create-play">
+		<form action="createplaylists">
+			<input type="submit" value="CREATE PLAYLIST">
+		</form>
+		<p class="libre"><i class="fa-solid fa-book"></i>Your libreay</p>
+		<p class="arrow"><i class="fa-solid fa-arrow-right"></i></p>
+		
+	</div>	
+		</div>
+		<div class="middle-container3">
+		<p class="follow">Let's find some podcasts to follow</p>
+		<p class="episode">We'll keep you updated on new episodes</p>
+		<button class="bro">Browse podcasts</button>
+		
+		
+		
+		</div>
+	</div>
+
+
+
+
+
+	<div class="first-two">
+		<div class="image1">
+			<img th:src="@{/images/Screenshot_17.png}" alt="Description">
+		</div>
+		<div class="image2">
+			<img th:src="@{/images/Screenshot_18.png}" alt="Description">
+		</div>
+		<div class="image3">
+			<img th:src="@{/images/Screenshot_19.png}" alt="Description">
+		</div>
+		<div class="image4">
+			<img th:src="@{/images/Screenshot_20.png}" alt="Description">
+		</div>
+		<div class="image5">
+			<img th:src="@{/images/Screenshot_21.png}" alt="Description">
+		</div>
+
+		<div class="navbar">
+			<h2 class="today">Today's Top Hits</h2>
+		</div>
+	</div><br>
+	
+	
+	<div class="header3"></div>
+	
+	<script>
+	document.cookie = "MicrosoftApplicationsTelemetryDeviceId=value; domain=github.com; path=/; SameSite=None; Secure";
+	
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector("music-view"); // Assuming you meant "music-view" instead of "music-view"
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+  </script>
+  <div class="mid2">
+  <div class="tere">
+		<img th:src="@{/images/Screenshot_22.png}" alt="Description">	
+		</div>
+		<p class="so">Playlist</p>
+		<h1 class="bolly">Bollywood Hungam hits</h1>
+		<p class="here">Listen all latest music only here</p>
+  
+  
+  
+  </div>
+<div class="middle-nav">
+ <p class="left"><i class="fa-solid fa-circle-chevron-left"></i></p>
+ <p class="right"><i class="fa-solid fa-circle-chevron-right"></i></p>
+ <button class="exp">Explore Premium</button>
+ <button class="exp1">Install App</button>
+ <p class="bell"><i class="fa-solid fa-bell"></i></p>
+ <p class="cirp"><i class="fa-solid fa-user"></i></p>
+
+
+		
+ </div>
+</body>
+</html>

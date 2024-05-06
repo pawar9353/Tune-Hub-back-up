@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CUSTOMER HOME</title>
+</head>
+<style>
+
+body{
+background-color:black;
+}
+.middle{
+position:absolute;
+top:10%;
+left:400px;
+width:880px;
+height:2100px;
+background-color:white;
+}
+.mid-conta {
+position:absolute;
+margin-top:200px;
+margin-left:100px;
+}
+
+
+
+</style>
+<body>
+	<p>Customer Home</p>
+	<br>
+	<br>
+
+	
+
+<div th:unless="${ispremium}" class="non-premium">
+	<form action="Payment">
+		<input type="submit" value="GET PREMIUM">
+	</form>
+	<br>
+	<form action="logout">
+		<input type="submit" value="LOGOUT">
+	</form>
+</div>
+<div class="middle">
+<div class="mid-conta">
+
+<div th:if="${ispremium}" class="premium">
+	<table border="1">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Artist</th>
+					<th>Genre</th>
+					<th>Play</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="s:${songs}">
+				<td th:text="${s.name}"></td>
+				<td th:text="${s.artist}"></td>
+				<td th:text="${s.genre}"></td>
+				
+				<td>
+					<audio controls>
+						<source th:src="${s.link}">
+					</audio>
+				 </td>
+				 
+				</tr>
+			</tbody>
+	</table>
+	</div>
+</div>
+
+</div>
+<div class="check1"></div>
+</body>
+</html>

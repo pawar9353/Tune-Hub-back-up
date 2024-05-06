@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+body {
+	font-family: Arial, sans-serif;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+form {
+	text-align: center;
+	margin-top: 20px;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+</style>
+<body>
+	<h1>SONGS</h1>
+
+	<form action="addsong">
+		<input type="submit" value="ADD SONG">
+	</form>
+	<Br>
+	<Br>
+	<form action="viewsong">
+		<input type="submit" value="VIEW SONG">
+	</form>
+	<Br>
+	<Br>
+	<form action="createplaylists">
+		<input type="submit" value="CREATE PLAYLIST">
+	</form>
+	<Br>
+	<Br>
+	<form action="viewplaylist">
+		<input type="submit" value="VIEW PLAYLIST">
+	</form>
+
+	<form action="logout">
+		<input type="submit" value="LOGOUT">
+	</form>
+</body>
+</html>

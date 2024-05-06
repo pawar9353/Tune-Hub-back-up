@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<link rel="stylesheet" type="text/css" href="/css/Registration.css">
+
+
+</head>
+<body>
+	
+	<div class="form-container">
+	<div class="nav">
+		<h1>Register Here</h1>
+	</div>
+		<form action="/register" method="post">
+
+			<div class="from-container2">
+				<div class="user">
+					<label for="username">Username:</label><br> <input type="text"
+						id="username" name="username" placeholder="Enter your name" required	><br>
+					<br>
+				</div>
+
+				<label for="email">email:</label><br> <input type="email"
+					id="email" name="email" placeholder="Enter a valid email" required><br>
+				<br> <label for="password">Password:</label><br> <input
+					type="password" id="password" name="password"
+					placeholder="Enter a password" required><br> <br>
+				<div class="gender-contain">
+					<label for="gender">Gender:</label><br> <input type="radio"
+						id="male" name="gender" value="male" required> <label
+						for="male">Male</label> <input type="radio" id="female"
+						name="gender" value="female"> <label for="female">Female</label><br>
+					<br>
+				</div>
+				<div class="role-container">
+
+					<label for="Role">Role:</label><br> <input type="radio"
+						id="admin" name="Role" value="admin" required> <label
+						for="Role">Admin</label> <input type="radio" id="customer"
+						name="Role" value="customer"> <label for="customer">Customer</label><br>
+					<br> <br>
+				</div>
+				<div class="adress-container">
+					<div class="user">
+						<label for="adress">Adress:</label><br> <input type="text"
+							id="adress" name="adress" placeholder="Enter your permenent adress" required><br>
+						<br>
+					</div>
+					<div class="submit-container">
+						<input type="submit" value="Submit">
+					</div>
+				</div>
+		</form>
+	</div>
+</body>
+</html>

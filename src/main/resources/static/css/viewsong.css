@@ -1,0 +1,581 @@
+body {
+	background-color: black;
+}
+
+.first-one {
+	position: fixed;
+	top: 1%;
+	background-color: #1b1b1c;
+	width: 343px;
+	height: 140px;
+	border-radius: 10px;
+}
+
+.header2 {
+	position: fixed;
+	top: 155px;
+	background-color: #1b1b1c;
+	width: 343px;
+	height: 595px;
+	border-radius: 10px;
+}
+
+.header3 {
+	position: fixed;
+	top: 750px;
+	width: 100%;
+	height: 90px;
+	background-color: black;
+}
+
+.middle-container {
+	position: absolute;
+	top: 80px;
+	left: 9px;
+	width: 325px;
+	height: 160px;
+	background-color: #2b2b2b;
+	border-radius: 10px;
+}
+
+.middle-container3 {
+	position: absolute;
+	top: 280px;
+	left: 9px;
+	width: 325px;
+	height: 160px;
+	background-color: #2b2b2b;
+	border-radius: 10px;
+}
+/* Style for the music library container */
+.music-view {
+	margin: 20px;
+}
+
+table {
+	width: 900px;
+	margin-left: 100px;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+	font: 15px Robot, sans-serif;
+	color: #fff;
+	padding: 10px;
+}
+
+/* Style for table headings */
+th {
+	text-align: left;
+	padding: 28px;
+	color: #c0c0c0;
+	font: 17px Roboto, sans-serif;
+	font-weight: 600;
+	border-bottom: 1px solid #2b2b2b;
+}
+
+td {
+	padding: 15px;
+}
+
+audio {
+	width: 100px;
+	margin-top: 3px;
+}
+
+tr:hover {
+	background-color: #2b2b2b;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+td:hover {
+	background-color: #2b2b2b;
+}
+
+.create-play {
+	position: fixed;
+	top: 340px;
+	left: 60px;
+	text-align: center;
+}
+
+input[type="submit"] {
+	padding: 10px 20px;
+	width: 170px;
+	font: 15px Roboto, sans-serif;
+	color: black;
+	border-radius: 20px;
+	font-weight: 600;
+	text-align: center;
+	border: 1px solid white;
+}
+
+.first-two {
+	position: fixed;
+	top: 1%;
+	right: 10px;
+	border-radius: 10px;
+	width: 310px;
+	height: 800px;
+	background-color: #1b1b1c;
+	overflow-x: hidden;
+}
+
+.first-two::-webkit-scrollbar {
+	display: none;
+}
+
+.navbar {
+	position: fixed;
+	margin-top: 0%;
+	width: 310px;
+	border-radius: 10px 10px 0 0;
+	height: 80px;
+	margin-left: 0px;
+	background-color: #1b1b1c;
+}
+
+.image1 {
+	position: absolute;
+	top: 12%;
+	margin-left: 15px;
+}
+
+.image1, img {
+	width: 280px;
+	height: 280px;
+	border-radius: 10px;
+}
+
+.image2 {
+	position: absolute;
+	margin-top: 420px;
+	margin-left: 15px;
+}
+
+.image2, img {
+	width: 280px;
+	height: 330px;
+	border-radius: 10px;
+}
+
+.image3 {
+	position: absolute;
+	margin-top: 750px;
+	margin-left: 15px;
+}
+
+.image3, img {
+	width: 280px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.image4 {
+	position: absolute;
+	margin-top: 1090px;
+	margin-left: 15px;
+}
+
+.image4, img {
+	width: 280px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.image5 {
+	position: absolute;
+	margin-top: 1090px;
+	margin-left: 15px;
+}
+
+.image5, img {
+	width: 280px;
+	height: 300px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.today {
+	position: absolute;
+	margin-top: 20px;
+	color: white;
+	font: 20px Roboto, sans-serif;
+	margin-left: 20px;
+	font-weight: 600;
+}
+
+.create {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: white;
+	font-weight: 600;
+	font: 19px Roboto, sans-serif;
+}
+
+.you {
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 20px;
+	color: white;
+	font: 15px Roboto, sans-serif;
+}
+
+.follow {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: white;
+	font: 18px Robot, sans-serif;
+	font-weight: 600;
+}
+
+.episode {
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 20px;
+	color: white;
+	font: 16px Robot, sans-serif;
+	font-weight: 400;
+}
+
+.bro {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 40px;
+	color: black;
+	width: 200px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	font: 16px Robot, sans-serif;
+	font-weight: 400;
+}
+
+.home {
+	position: absolute;
+	margin-left: 30px;
+	color: #fffaf0;
+	font: 20px Robot, sans-serif;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+.home i {
+	width: 50px;
+	color: #fffaf0;
+	margin-left: 10px;
+}
+
+.home1 i {
+	width: 50px;
+	color: #fffaf0;
+	margin-left: 10px;
+}
+
+.home1 {
+	position: absolute;
+	margin-left: 30px;
+	color: #fffaf0;
+	font: 20px Robot, sans-serif;
+	font-weight: 400;
+	margin-top: 70px;
+}
+
+.libre {
+	position: absolute;
+	top: -170px;
+	color: #fffaf0;
+	font: 20px Roboto, sans-serif;
+	margin-left: -40px;
+}
+
+.libre i {
+	width: 50px;
+	color: #fffaf0;
+	margin-left: 10px;
+}
+
+.arrow {
+	position: absolute;
+	top: -165px;
+	color: white;
+	margin-left: 210px;
+	width: 70px;
+}
+
+.arrow {
+	width: 80px;
+}
+
+.middle-nav {
+	position: fixed;
+	top: 1%;
+	width: 1000px;
+	height: 70px;
+	background-color: #1b1b1c;
+	border-radius: 10px 10px 0 0;
+	left: 360px;
+}
+
+.music-view {
+	position: static;
+	width: 1000px;
+	background: linear-gradient(to bottom, rgb(150, 300, 208) 0%, #1b1b1b
+		20%);
+	height: 2600px;
+	border-radius: 1px;
+	margin-left: 351px;
+	transition: 0.6s;
+	z-index: 100000;
+	margin-top: 100px;
+}
+
+.music-view.sticky {
+	padding: 5px 100px;
+	background: #fff;
+}
+
+.mid2 {
+	position: absolute;
+	width: 1000px;
+	height: 280px;
+	background: linear-gradient(#20b2aa, #7fffd4); top : 60px;
+	left: 360px;
+	top: 60px;
+}
+
+.music2 {
+	margin-top: 340px;
+}
+
+.sanam {
+	position: absolute;
+	top: 440px;
+	left: 410px;
+}
+
+.sanam img {
+	width: 50px;
+	height: 50px;
+}
+
+.sanam1 {
+	position: absolute;
+	top: 530px;
+	left: 410px;
+}
+
+.sanam1 img {
+	width: 50px;
+	height: 50px;
+}
+
+
+.so {
+	position: absolute;
+	margin-left: 260px;
+	margin-top: 70px;
+	font: 20px Roboto, sans-serif;
+	color: white;
+	font-weight: 700;
+}
+
+.bolly {
+	position: absolute;
+	margin-left: 260px;
+	margin-top: 90px;
+	font: 60px Roboto, sans-serif;
+	color: white;
+	font-weight: 700;
+}
+
+.here {
+	position: absolute;
+	margin-left: 260px;
+	margin-top: 170px;
+	font: 20px Roboto, sans-serif;
+	color: white;
+	font-weight: 700;
+}
+.left{
+	position:absolute;
+	margin-left:20px;
+}
+.left i{
+	color:grey;
+	font-size:32px;
+	}
+.right{
+	position:absolute;
+	margin-left:68px;
+}
+.right i{
+	color:grey;
+	font-size:32px;
+}
+.exp{
+	margin-left:500px;
+	margin-top:12px;
+	height:40px;
+	width:170px;
+	font-weight:800;
+	color:black;
+	border-radius:20px;
+	font:15px Roboto,sans-serif;
+	border:1px solid black
+}
+.exp1{
+	margin-left:20px;
+	width:140px;
+	height:40px;
+	background-color:grey;
+	color:white;
+	border:1px solid #2b2b2b;
+	border-radius:20px;
+	font:15px Roboto,sans-serif;
+}
+.bell{
+	position:absolute;
+	top:5px;
+	color:grey;
+	margin-left:875px;
+	
+}
+.bell i{
+	font-size:28px;
+}
+.tere{
+	position:absolute;
+	margin-left:20px;
+	margin-top:40px;
+}
+.tere img{
+	width:220px;
+	height:220px;
+}
+.sanam2{
+	position:absolute;
+	top:620px;
+	left:410px;
+}
+.sanam2 img{
+	width:50px;
+	height:50px;
+}
+.sanam3{
+	position:absolute;
+	top:710px;
+	left:410px;
+}
+.sanam3 img{
+	width:50px;
+	height:50px;
+}
+.sanam4{
+	position:absolute;
+	top:800px;
+	left:410px;
+}
+.sanam4 img{
+	width:50px;
+	height:50px;
+}
+.sanam5{
+	position:absolute;
+	top:890px;
+	left:410px;
+}
+.sanam5 img{
+	width:50px;
+	height:50px;
+}
+.sanam6{
+	position:absolute;
+	top:980px;
+	left:410px;
+}
+.sanam6 img{
+	width:50px;
+	height:50px;
+}
+.sanam7{
+	position:absolute;
+	top:1080px;
+	left:410px;
+}
+.sanam7 img{
+	width:50px;
+	height:50px;
+}
+.sanam8{
+	position:absolute;
+	top:1170px;
+	left:410px;
+}
+.sanam8 img{
+	width:50px;
+	height:50px;
+}
+.sanam9{
+	position:absolute;
+	top:1260px;
+	left:410px;
+}
+.sanam9 img{
+	width:50px;
+	height:50px;
+}
+.sanam10{
+	position:absolute;
+	top:1360px;
+	left:410px;
+}
+.sanam10 img{
+	width:50px;
+	height:50px;
+}
+.sanam11{
+	position:absolute;
+	top:1440px;
+	left:410px;
+}
+.sanam11 img{
+	width:50px;
+	height:50px;
+}
+.sanam12{
+	position:absolute;
+	top:1530px;
+	left:410px;
+}
+.sanam12 img{
+	width:50px;
+	height:50px;
+}
+.sanam13{
+	position:absolute;
+	top:1620px;
+	left:410px;
+}
+.sanam13 img{
+	width:50px;
+	height:50px;
+}
+.sanam14{
+	position:absolute;
+	top:1720px;
+	left:410px;
+}
+.sanam14 img{
+	width:50px;
+	height:50px;
+}
+.cirp{
+	position:absolute;
+	top:5px;
+	color:grey;
+	margin-left:935px;
+}
+.cirp i{
+	font-size:25px;
+}

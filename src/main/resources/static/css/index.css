@@ -1,0 +1,194 @@
+body {
+	background: linear-gradient(90deg,#343434,#080808,#080808,#343434);
+}
+
+.regis {
+	position: absolute;
+	width: 450px;
+	height: 700px;
+	background-color: white;
+	left: 634px;
+	top: 17%;
+	border-radius: 10px;
+	background-color:#1b1b1c;
+}
+
+.navbar {
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height:70px;
+	background-color: #1b1b1c;
+}
+
+.contain {
+	position: absolute;
+	margin-top: 160px;
+	margin-left: 45px;
+}
+
+.btn {
+	width: 265px;
+	height: 45px;
+	border-radius: 20px;
+	background-color: #1b1b1c;
+	border:1px solid white;
+	color:white;
+	font: 24px Roboto, sans-serif;
+	font-weight: 500;
+}
+.btn:hover{
+	background-color:grey;
+}
+
+.contain1 {
+	position: absolute;
+	margin-top: 576px;
+	margin-left:150px;
+}
+.btn2{
+	width:150px;
+	height:50px;
+	background-color:#1b1b1c;
+	border-radius:20px;
+	border:1px solid white;	
+	color:white;
+	font: 20px Roboto, sans-serif;
+	font-weight:600;		
+}
+.btn2:hover{
+	background-color:grey;
+}
+
+.heading {
+	position: absolute;
+	margin-top: 100px;
+	color: white;
+	left: 660px;
+	font: 24px Roboto, sans-serif;
+}
+
+.line {
+	position: absolute;
+	top: 100px;
+	border-top: 0.5px solid #696969;
+	width: 150px;
+	margin-left: 0px;
+}
+
+.line2 {
+	position: absolute;
+	top: 100px;
+	border-top: 0.5px solid #696969;
+	width: 150px;
+	margin-left: 215px;
+}
+
+.or {
+	position: absolute;
+	margin-top: 20px;
+	font: 18px Roboto, sans-serif;
+	margin-left: 170px;
+	color: white;
+}
+
+.b1 {
+	position: absolute;
+	top: 430px;
+	left: 680px;
+}
+
+.btn3 {
+	width: 360px;
+	height: 48px;
+	align-content: space-between;
+	border-radius: 20px;
+	font: 20px Roboto, sans-serif;
+	background-color: #1b1b1c;
+	cursor: pointer;
+	border: 1px solid grey;
+	background-color: transparent;
+	color: white;
+	font-weight: 600;
+}
+
+i {
+	position: absolute;
+	margin-left: -85px;
+	margin-top: 2px;
+	width: 50px;
+	color: white;
+}
+
+.b2 {
+	position: absolute;
+	top: 500px;
+	left: 680px;
+}
+
+.btn4 {
+	width: 360px;
+	height: 48px;
+	align-content: space-between;
+	border-radius: 20px;
+	font: 20px Roboto, sans-serif;
+	background-color: #1b1b1c;
+	cursor: pointer;
+	border: 1px solid grey;
+	background-color: transparent;
+	color: white;
+	font-weight: 600;
+	padding-left:30px;
+}
+.btn5 {
+	width: 360px;
+	height: 48px;
+	align-content: space-between;
+	border-radius: 20px;
+	font: 20px Roboto, sans-serif;
+	background-color: #1b1b1c;
+	cursor: pointer;
+	border: 1px solid grey;
+	background-color: transparent;
+	color: white;
+	font-weight: 600;
+	padding-left:1px;
+}
+
+.b3 {
+	position: absolute;
+	top: 570px;
+	left: 680px;
+}
+.line3{
+	border-top:1.5px solid #253529 ;
+	position:absolute;
+	top:650px;
+	width:370px;
+	left:680px;
+}
+.loginpage{
+	position:absolute;
+	top:670px;
+	left:765px;
+	color:white;
+	font-weight:600;
+	font: 15px Roboto, sans-serif;
+}
+.privacy{
+	position:absolute;
+	top:760px;
+	left:720px;
+	color:white;	
+	font: 12px Roboto, sans-serif;
+	text-align:center;
+	color:grey;
+}
+.nav2{
+	width:100%;
+	height:40px;
+	background-color:#1b1b1c;
+	position:absolute;
+	top:870px
+}
+

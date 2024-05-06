@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+
+body {
+	padding: 0;
+	margin: 0;
+	background-image: linear-gradient(rgba(0, 13, 9, 0.930),
+		rgba(0, 13, 9, 0.930)), url("../images/Screenshot 161.png");
+	background-repeat: repeat;
+	background-size: cover;
+	position: position;
+	width: 100;
+	min-height: 100vh;
+}
+
+
+.form-container {
+	position: absolute;
+	width: 550px;
+	height: 700px;
+	background-color:black;
+	top: 10%;
+	left:34%;
+	border-radius: 2%;
+	box-shadow: 0 0 10px rgba(0, 30, 40, 0.7);
+}
+
+.from-container2 {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 60px;
+	width: 600px;
+}
+
+input[type="password"], input[type="email"], select {
+	width: 430px;
+	padding: 12px;
+	margin: 10px 0;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border: 1px solid #1b1b1c;
+	background-color: #1b1b1c;
+	transition: border-color 0.3s ease;
+	color: white;
+	font-size: 16px;
+}
+
+input[type="text"], select {
+	width: 430px;
+	padding: 12px;
+	margin: 10px 0;
+	box-sizing: border-box;
+	border-radius: 10px;
+	transition: border-color 0.3s ease;
+	background-color: #1b1b1c;
+	border: 1px solid #1b1b1c;
+	color: white;
+	font-size: 16px;
+}
+
+.gender-contain {
+	position: absolute;
+	width: 300px;
+	color: grey;
+	margin-top: 90px;;
+	font: 18px Roboto, sans-serif;
+}
+
+.role-container {
+	position: absolute;
+	margin-top: 10px;
+	color: grey;
+	width: 260px;
+	font: 18px Roboto, sans-serif;
+}
+
+.adress-container {
+	position: absolute;
+	margin-top: 130px;
+	background-color: #1b1b1c;
+	border-radius: 10px;
+	font: 18px Roboto, sans-serif;
+	width: 0px;
+	height: 50px;
+}
+
+.submit-container {
+	position: absolute;
+	color: grey;
+}
+
+input[type="radio"] {
+	margin-right: 9px;
+}
+
+input[type="submit"] {
+	background-color: grey;
+	color: #ffffff;
+	padding: 12px 4px;
+	border: none;
+	border-radius: 10px;
+	width: 430px;
+	transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+.nav{
+	position:absolute;
+	color:white;
+	position:absolute;
+	top:2%;
+	left:28%;
+	font: 19px Roboto, sans-serif;
+	color:grey;	
+}
